@@ -8,8 +8,6 @@ import java.util.List;
 import java.util.OptionalDouble;
 
 public class SortByAverageAge {
-
-
     public double averageAge(List<Order> orders, Product product) {
         OptionalDouble averageAge = orders.stream()
                 .filter(order -> order.getProducts().contains(product))

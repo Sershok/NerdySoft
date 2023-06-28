@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDate;
 
-public class VirtualProduct extends Product  {
+public class VirtualProduct extends Product {
     private LocalDate expirationDate;
     private String code;
 
@@ -27,6 +27,7 @@ public class VirtualProduct extends Product  {
     public void setCode(String code) {
         this.code = code;
     }
+
     @Override
     public double getWeight() {
         return 0;

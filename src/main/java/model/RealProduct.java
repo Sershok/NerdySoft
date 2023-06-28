@@ -18,8 +18,6 @@ public class RealProduct extends Product {
         this.size = size;
     }
 
-
-
     public void setWeight(double weight) {
         this.weight = weight;
     }

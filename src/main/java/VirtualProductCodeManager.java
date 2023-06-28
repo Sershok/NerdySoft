@@ -9,18 +9,17 @@ public class VirtualProductCodeManager {
         usedCodes = new ArrayList<>();
     }
 
-    public static VirtualProductCodeManager getInstance(){
-        if(instance == null){
+    public static VirtualProductCodeManager getInstance() {
+        if (instance == null) {
             instance = new VirtualProductCodeManager();
         }
         return instance;
     }
-
-    public void useCode(String useCode){
+    public void useCode(String useCode) {
         usedCodes.add(useCode);
     }
 
-    public boolean isCodeUsed(String useCode){
+    public boolean isCodeUsed(String useCode) {
         return usedCodes.contains(useCode);
     }
 }

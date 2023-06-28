@@ -3,7 +3,6 @@ package sort;
 import model.Order;
 
 import java.util.Comparator;
-import java.util.Objects;
 
 public class SortOrdersByUserAge implements Comparator<Order> {
     @Override
